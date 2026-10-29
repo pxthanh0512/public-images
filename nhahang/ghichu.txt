@@ -1,3 +1,0 @@
-Thu muc nhahang/ - banner cho kenh nha hang (quan Nhat, nha hang, F&B).
-File ghi chu nay chi de GitHub giu thu muc. Co the xoa sau khi da tai anh vao.
-Ten file: ngan gon, khong dau, khong khoang trang. Moi anh phai co 1 dong trong danh_sach_anh.txt o thu muc goc.

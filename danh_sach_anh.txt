@@ -1,6 +1,7 @@
 # DANH SACH ANH - kho public-images (Platinum, bo khung email B2B V02)
 # Moi dong = 1 anh. Cac cot cach nhau bang dau " | ".
 # Cot: ten_file | duong_dan | link_truc_tiep | kenh | dip_dung | mau_dong_bia | co_chu_tren_anh | kich_thuoc
+# kieu dip_dung: khong_khi_* = anh khong khi chung; san_pham_* = anh san pham ro net. mau_dong_bia: vang (bia vang/sang mau), den (bia den). co_chu_tren_anh: chi logo hoac chu chung, khong co uu dai.
 # Link truc tiep = https://raw.githubusercontent.com/pxthanh0512/public-images/main/<duong_dan>
 # Quy tac: AI chi CHON anh co san, khong tu ve. Chu tren anh chi chung chung (ten dong bia, cau cam hung), khong ghi uu dai/han chot.
 # Kich thuoc de xuat: ngang 1200 px (hien thi 600 px), moi anh duoi ~200 KB.
@@ -8,3 +9,13 @@
 # Ghi chu: "chua_phan_loai" = chua duoc gan kenh/dip/mau, cho nguoi dung bo sung.
 
 home_56107904474643a2abfe1e7a94372c16.jpg | home_56107904474643a2abfe1e7a94372c16.jpg | https://raw.githubusercontent.com/pxthanh0512/public-images/main/home_56107904474643a2abfe1e7a94372c16.jpg | chua_phan_loai | chua_phan_loai | chua_phan_loai | chua_xac_dinh | 1366x768 px, 141 KB (chua toi uu: ngang >1200 px)
+nhahang_01.jpg | nhahang/nhahang_01.jpg | https://raw.githubusercontent.com/pxthanh0512/public-images/main/nhahang/nhahang_01.jpg | nhahang | khong_khi_nhom_ban_nang_ly | vang | logo_nho_tren_ao | 1200x600 px, 123 KB
+nhahang_02.jpg | nhahang/nhahang_02.jpg | https://raw.githubusercontent.com/pxthanh0512/public-images/main/nhahang/nhahang_02.jpg | nhahang | san_pham_can_ly_bia | vang | logo_tren_ly | 1200x600 px, 53 KB
+nhahang_03.jpg | nhahang/nhahang_03.jpg | https://raw.githubusercontent.com/pxthanh0512/public-images/main/nhahang/nhahang_03.jpg | nhahang | khong_khi_quan_co_thap_bia | vang | logo_tren_thap | 1200x600 px, 98 KB
+nhahang_04.jpg | nhahang/nhahang_04.jpg | https://raw.githubusercontent.com/pxthanh0512/public-images/main/nhahang/nhahang_04.jpg | nhahang | khong_khi_ban_be_cung_ly | vang | khong | 1200x600 px, 115 KB
+nhahang_05.jpg | nhahang/nhahang_05.jpg | https://raw.githubusercontent.com/pxthanh0512/public-images/main/nhahang/nhahang_05.jpg | nhahang | khong_khi_ban_an_vui_ve | vang | khong | 1200x600 px, 103 KB
+nhahang_06.jpg | nhahang/nhahang_06.jpg | https://raw.githubusercontent.com/pxthanh0512/public-images/main/nhahang/nhahang_06.jpg | nhahang | san_pham_hai_ly_cung_ly_rooftop | vang | logo_tren_ly | 1200x600 px, 99 KB
+nhahang_07.jpg | nhahang/nhahang_07.jpg | https://raw.githubusercontent.com/pxthanh0512/public-images/main/nhahang/nhahang_07.jpg | nhahang | san_pham_voi_bia_ly_bia | vang | logo_tren_voi_va_ly | 1200x600 px, 96 KB
+nhahang_08.jpg | nhahang/nhahang_08.jpg | https://raw.githubusercontent.com/pxthanh0512/public-images/main/nhahang/nhahang_08.jpg | nhahang | san_pham_rot_bia_den_tai_quay | den | logo_tren_ly | 1200x600 px, 79 KB
+nhahang_09.jpg | nhahang/nhahang_09.jpg | https://raw.githubusercontent.com/pxthanh0512/public-images/main/nhahang/nhahang_09.jpg | nhahang | san_pham_rot_bia_tu_voi | vang | logo_tren_voi_va_ly | 1200x600 px, 59 KB
+nhahang_10.jpg | nhahang/nhahang_10.jpg | https://raw.githubusercontent.com/pxthanh0512/public-images/main/nhahang/nhahang_10.jpg | nhahang | san_pham_rot_bia_ly_day | vang | logo_va_chu_chung_tren_ao | 1200x600 px, 92 KB
