@@ -1,0 +1,10 @@
+# DANH SACH ANH - kho public-images (Platinum, bo khung email B2B V02)
+# Moi dong = 1 anh. Cac cot cach nhau bang dau " | ".
+# Cot: ten_file | duong_dan | link_truc_tiep | kenh | dip_dung | mau_dong_bia | co_chu_tren_anh | kich_thuoc
+# Link truc tiep = https://raw.githubusercontent.com/pxthanh0512/public-images/main/<duong_dan>
+# Quy tac: AI chi CHON anh co san, khong tu ve. Chu tren anh chi chung chung (ten dong bia, cau cam hung), khong ghi uu dai/han chot.
+# Kich thuoc de xuat: ngang 1200 px (hien thi 600 px), moi anh duoi ~200 KB.
+# Moi kenh nen co du 2 kieu: khong khi chung + san pham ro net.
+# Ghi chu: "chua_phan_loai" = chua duoc gan kenh/dip/mau, cho nguoi dung bo sung.
+
+home_56107904474643a2abfe1e7a94372c16.jpg | home_56107904474643a2abfe1e7a94372c16.jpg | https://raw.githubusercontent.com/pxthanh0512/public-images/main/home_56107904474643a2abfe1e7a94372c16.jpg | chua_phan_loai | chua_phan_loai | chua_phan_loai | chua_xac_dinh | 1366x768 px, 141 KB (chua toi uu: ngang >1200 px)
