@@ -1,0 +1,52 @@
+name: Cap nhat danh sach anh
+
+# Moi khi co nguoi up, doi ten hoac xoa anh trong cac thu muc kenh, tu dong cap nhat danh_sach_anh.txt.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'nhahang/**'
+      - 'oem/**'
+      - 'privateparty/**'
+      - 'chung/**'
+      - 'ghi_chu_anh.txt'
+      - 'tools/cap_nhat_danh_sach.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cap-nhat-danh-sach
+  cancel-in-progress: false
+
+jobs:
+  cap-nhat:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow
+      - name: Cap nhat danh sach
+        run: |
+          python3 tools/cap_nhat_danh_sach.py | tee ket_qua.txt
+          {
+            echo '## Ket qua cap nhat danh sach anh'
+            echo '```'
+            cat ket_qua.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          rm ket_qua.txt
+      - name: Luu danh sach moi
+        run: |
+          if [ -n "$(git status --porcelain danh_sach_anh.txt)" ]; then
+            git config user.name "danh-sach-anh-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add danh_sach_anh.txt
+            git commit -m "Tu dong cap nhat danh_sach_anh.txt"
+            git push
+          else
+            echo "Danh sach khong doi."
+          fi

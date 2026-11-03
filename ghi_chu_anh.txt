@@ -1,0 +1,2 @@
+# Ghi chu rieng cho tung hinh. Moi dong: ten_file.jpg | noi dung ghi chu
+# Vi du: OEM_4.jpg | Co Michael Comerton (ghi ten duoi anh khi dung)
